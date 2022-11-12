@@ -4,7 +4,7 @@ if (num_a % 2 == 0)
 {
     Console.WriteLine("да");
 }
-else
+else if (num_a != 0)
 {
     Console.WriteLine("нет");
 }
